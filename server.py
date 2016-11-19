@@ -18,7 +18,7 @@ class Handler(BaseHTTPRequestHandler):
 
   def do_GET(self):
     targets = ('', '/index.html', '/index.htm')
-    path = './' + self.path
+    path = './pub/' + self.path
 
     for p in (os.path.abspath(path + s) for s in targets):
       try:
