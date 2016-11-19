@@ -1,3 +1,7 @@
+'''
+Refs:
+  https://gist.github.com/bradmontgomery/2219997
+'''
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer as Server
 import os
 
