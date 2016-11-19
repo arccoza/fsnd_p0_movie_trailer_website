@@ -2,7 +2,10 @@ from media import Movie
 
 
 movies = [
-  Movie('The Fifth Element'),
-  Movie('The Dirty Dozen'),
-  Movie('Escape from New York')
+  Movie(title='The Fifth Element'),
+  Movie(title='The Dirty Dozen'),
+  Movie(title='Escape from New York')
 ]
+
+for m in movies:
+  m.lookup()

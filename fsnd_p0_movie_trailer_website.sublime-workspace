@@ -1,0 +1,464 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"fetch_info"
+			],
+			[
+				"tmdb",
+				"tmdbsimple"
+			],
+			[
+				"Bas",
+				"BaseHTTPRequestHandler"
+			],
+			[
+				"tr",
+				"trailer_url"
+			],
+			[
+				"the",
+				"the_fifth_element"
+			],
+			[
+				"sel",
+				"selector"
+			],
+			[
+				"wa",
+				"warnings"
+			],
+			[
+				"res",
+				"response_id"
+			],
+			[
+				"ite",
+				"items"
+			],
+			[
+				"__d",
+				"__dict__"
+			],
+			[
+				"_pro",
+				"_proxy_target"
+			],
+			[
+				"tree",
+				"Tree2"
+			],
+			[
+				"ke",
+				"key"
+			],
+			[
+				"t",
+				"target"
+			],
+			[
+				"target",
+				"target"
+			],
+			[
+				"co",
+				"connect"
+			],
+			[
+				"is",
+				"isinstance"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"jo",
+				"jobinator"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"grou",
+				"groups"
+			],
+			[
+				"expe",
+				"expected"
+			],
+			[
+				"exp",
+				"expected"
+			],
+			[
+				"cmd",
+				"cmd"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"Rsync",
+				"RsyncError"
+			],
+			[
+				"handl",
+				"handler1"
+			],
+			[
+				"hand",
+				"handler1"
+			],
+			[
+				"rs",
+				"rsync_version"
+			],
+			[
+				"long",
+				"long_args"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "media.py",
+			"settings":
+			{
+				"buffer_size": 1625,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 460.0,
+		"last_filter": "lint",
+		"selected_items":
+		[
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"revers",
+				"Permute Selections: Reverse"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"view ",
+				"View: Toggle Menu"
+			],
+			[
+				"view menu",
+				"View: Toggle Menu"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/adrien/Projects/education/udacity_fsnd/fsnd_proj_movie_website"
+	],
+	"file_history":
+	[
+		"/home/adrien/Projects/education/udacity_fsnd/fsnd_proj_movie_website/fsnd_p0_movie_trailer_website.sublime-project",
+		"/home/adrien/Projects/education/udacity_fsnd/fsnd_proj_movie_website/movies.html.mustache",
+		"/home/adrien/Projects/education/udacity_fsnd/fsnd_proj_movie_website/build.py",
+		"/home/adrien/Projects/education/udacity_fsnd/fsnd_proj_movie_website/server.py",
+		"/home/adrien/Projects/education/udacity_fsnd/fsnd_proj_movie_website/models.py",
+		"/home/adrien/Projects/education/udacity_fsnd/fsnd_proj_movie_website/media.py",
+		"/home/adrien/Projects/code/postcss-argo/.gitignore",
+		"/home/adrien/Projects/education/udacity_fsnd/fsnd_proj_movie_website/movies.html",
+		"/home/adrien/Projects/education/udacity_fsnd/fsnd_proj_movie_website/.gitignore",
+		"/home/adrien/Projects/code/postcss-if-media/package.json",
+		"/home/adrien/Projects/code/postcss-if-media/gulpfile.js",
+		"/home/adrien/Projects/code/metalsmith-favicons/.gitignore",
+		"/home/adrien/Projects/code/metalsmith-favicons/package.json",
+		"/home/adrien/Projects/education/Udacity - FSND/test2.py",
+		"/home/adrien/Battle.net.desktop",
+		"/home/adrien/Projects/code/py_castaway/requirements.txt",
+		"/home/adrien/Projects/code/py_rsync_wrapper/options.json",
+		"/home/adrien/Projects/code/py_rsync_wrapper/eventful.py",
+		"/home/adrien/Projects/code/py_rsync_wrapper/src/rsync_options.txt",
+		"/home/adrien/Projects/code/py_rsync_wrapper/.gitignore",
+		"/home/adrien/Projects/code/py_rsync_wrapper/options.py",
+		"/home/adrien/Projects/code/UnrealEngine/Engine/Build/BatchFiles/Linux/Setup.sh",
+		"/home/adrien/Projects/code/UnrealEngine/Engine/Build/BatchFiles/Linux/BuildThirdParty.sh",
+		"/home/adrien/Projects/code/UnrealEngine/Build/BatchFiles/Linux/BuildThirdParty.sh",
+		"/home/adrien/Projects/code/UnrealEngine/Engine/Build/BatchFiles/Linux/BuildThirdParty.log",
+		"/home/adrien/Projects/code/UnrealEngine/Setup.sh",
+		"/home/adrien/Projects/code/py_rsync_wrapper/tools.py",
+		"/home/adrien/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/adrien/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"k",
+			"format",
+			"undefined",
+			"resul",
+			"n",
+			"_collection",
+			"container",
+			"treat_as_list",
+			".items()",
+			"NewOptions",
+			"NewTarget",
+			"pexpect.spawn",
+			"_events",
+			"same_as",
+			"\"k",
+			"k",
+			"BuildHLSLCC",
+			"CLANG_TO_USE",
+			"3.8",
+			"long_key",
+			"import",
+			"args",
+			"size",
+			"font"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_branches",
+			"collection",
+			"as_list",
+			"Options",
+			"Target",
+			"spawn",
+			"_emitter_events"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "media.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								712,
+								712
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fsnd_p0_movie_trailer_website.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 575.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 437.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
