@@ -24,7 +24,7 @@ class Movie(dict):
       res = Movies(res['results'][0]['id']).info(append_to_response='videos')
     except (IndexError, HTTPError):
       raise MovieSearchError(
-        'Could not retrieve info on movie: ' + self['title'])
+        'Could not retrieve info on movie: "' + self['title'] + '"')
 
     res.update(self)
     self.update(res)
@@ -52,7 +52,7 @@ class MovieSearchError(Exception):
 tmdb.API_KEY = '2874d8e2341ae3de760cc2119047fbb0'
 search = Search()
 # Movie.fetch_details('The Fifth Element')
-m = Movie(title='The Fifth Element')
+# m = Movie(title='The Fifth Element')
 # m = Movie([('title', 'The Fifth Element')])
 # m.lookup()
 # pprint(m)
