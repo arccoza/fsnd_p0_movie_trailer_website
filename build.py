@@ -7,6 +7,7 @@ import models
 import os
 import shutil
 import errno
+from minimatch import minimatch
 
 
 src = os.path.abspath('./src')
@@ -23,18 +24,20 @@ except OSError as ex:
 # Walk the src dir looking for html templates.
 for root, dirs, files in os.walk(src):
   for f in files:
-    with open(os.path.join(root, f), 'r') as fin:
+    in_path = os.path.join(root, f)
+    with open(in_path, 'r') as fin:
       tail = root.split(src)[1]
-      final_dest = os.path.abspath(dest + tail)
+      out_path = os.path.abspath(dest + tail)
 
       # If the path doesn't exist create it.
       try:
-        os.makedirs(final_dest)
+        os.makedirs(out_path)
       except OSError as ex:
         if ex.errno != errno.EEXIST:
             raise
 
-      final_dest += '/' + f
-      print(final_dest)
-      with open(final_dest, 'w') as fout:
-        fout.write(pystache.render(fin.read(), data))
+      out_path += '/' + f
+      print(out_path)
+      with open(out_path, 'w') as fout:
+        if minimatch(in_path, '/**/*.html'):
+          fout.write(pystache.render(fin.read(), data))
