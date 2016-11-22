@@ -1,4 +1,6 @@
 '''
+This is a simple build script that walks a source directory,
+copying, and possibly manipulating, the files to a destination directory.
 Refs:
   http://stackoverflow.com/questions/12517451/python-automatically-creating-directories-with-file-output
 '''
@@ -41,3 +43,5 @@ for root, dirs, files in os.walk(src):
       with open(out_path, 'w') as fout:
         if minimatch(in_path, '/**/*.html'):
           fout.write(pystache.render(fin.read(), data))
+        else:
+          fout.write(fin.read())
