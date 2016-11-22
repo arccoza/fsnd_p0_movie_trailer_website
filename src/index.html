@@ -21,15 +21,39 @@
       <h1 class="title__text">Movies</h1>
     </header>
     <section class="posters">
-      <ul class="grid-4">
+      <ul class="grid-4 grid_md-2 grid_sm-1">
       {{#movies}}
         <li class="poster col">
-          <div class="button button--round poster__play"><i class="icon-play"></i></div>
-          <img class="poster__img" src="{{poster_url}}">
-          <h4 class="poster__title">{{title}}</h4>
+          <div class="poster__inner">
+            <a href="#trailer-{{id}}" class="button button--round poster__play"><i class="icon-play"></i></a>
+            <a href="#info-{{id}}" class="button button--round poster__info"><i class="icon-info"></i></a>
+            <img class="poster__img" src="{{poster_url}}">
+            <h4 class="poster__title">{{title}}</h4>
+          </div>
         </li>
       {{/movies}}
       </ul>
+
+    {{#movies}}
+      <div id="trailer-{{id}}" class="modal">
+        <div class="modal__trailer">
+          <iframe width="560" height="315" src="{{trailer_url}}" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <a href="#" class="button button--round modal__close"><i class="icon-close"></i></a>
+      </div>
+    {{/movies}}
+
+    {{#movies}}
+      <div id="info-{{id}}" class="modal">
+        <div class="modal__info">
+          <h4>{{title}}</h4>
+          <h6>
+            {{overview}}
+          </h6>
+        </div>
+        <a href="#" class="button button--round modal__close"><i class="icon-close"></i></a>
+      </div>
+    {{/movies}}
     </section>
   </body>
 </html>
