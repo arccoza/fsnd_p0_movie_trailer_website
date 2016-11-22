@@ -1,4 +1,35 @@
-{{#movies}}
-  {{title}}
-  - {{trailer_url}}
-{{/movies}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Trailers</title>
+    <link 
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400|Shrikhand|Tinos" 
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gridlex/2.2.3/gridlex.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="title">
+      <h1 class="title__text">Movies</h1>
+    </header>
+    <section class="posters">
+      <ul class="grid-4">
+      {{#movies}}
+        <li class="poster col">
+          <div class="button button--round poster__play"><i class="icon-play"></i></div>
+          <img class="poster__img" src="{{poster_url}}">
+          <h4 class="poster__title">{{title}}</h4>
+        </li>
+      {{/movies}}
+      </ul>
+    </section>
+  </body>
+</html>
