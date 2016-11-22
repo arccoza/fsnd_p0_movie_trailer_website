@@ -11,7 +11,7 @@ class Movie(dict):
     super(Movie, self).__init__(**kwargs)
 
     self._posters_url = 'https://image.tmdb.org/t/p/w640'
-    self._videos_url = 'https://www.youtube.com/watch?v='
+    self._videos_url = 'https://www.youtube.com/embed/'
 
     for k, v in self.iteritems():
       if k == 'title':

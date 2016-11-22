@@ -42,6 +42,6 @@ for root, dirs, files in os.walk(src):
       print(out_path)
       with open(out_path, 'w') as fout:
         if minimatch(in_path, '/**/*.html'):
-          fout.write(pystache.render(fin.read(), data))
+          fout.write(pystache.render(fin.read(), data).encode('utf-8'))
         else:
           fout.write(fin.read())
