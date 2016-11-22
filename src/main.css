@@ -71,7 +71,7 @@ body {
 }
 
 .posters {
-  width: 70%;
+  width: 75%;
   padding: 2em;
   margin: 0 auto;
 }
@@ -85,7 +85,7 @@ body {
   color: #E53035;
   overflow: hidden;
   padding: 0;
-  border: 0.25em solid #000;
+  border: 3px solid #000;
   border-radius: 0.5em;
   /*margin: 0 1em 0 1em;*/
 }
