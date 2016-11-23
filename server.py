@@ -42,7 +42,7 @@ def run(port=8000):
   '''
   address = ('', port)
   httpd = Server(address, Handler)
-  print('HTTP server starting...')
+  print('HTTP server running...')
   httpd.serve_forever()
 
 
