@@ -41,7 +41,9 @@ for root, dirs, files in os.walk(src):
       out_path += '/' + f
       print(out_path)
       with open(out_path, 'w') as fout:
+        # If the file is an html file, pass it through the mustache renderer.
         if minimatch(in_path, '/**/*.html'):
           fout.write(pystache.render(fin.read(), data).encode('utf-8'))
+        # Any other file is simply copied.
         else:
           fout.write(fin.read())

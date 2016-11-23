@@ -1,3 +1,6 @@
+'''
+A collection of movie model data for the site builder.
+'''
 from media import Movie
 
 

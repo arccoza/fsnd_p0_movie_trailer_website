@@ -1,3 +1,4 @@
+'''A minimatch.js like globbing module.'''
 import re
 import fnmatch
 import os
@@ -65,6 +66,13 @@ def minimatch(path, pat):
   '''
   Takes a file path and compares it to a glob pattern,
   if there is a match it returns the match obj otherwise None.
+
+  Args:
+    path (str): The path to check against pat.
+    pat (str): The pat to test path with.
+
+  Returns:
+    A match object if successful, None otherwise.
   '''
   pat = _compile(pat)
   # print(pat)

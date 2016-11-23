@@ -7,6 +7,7 @@ import os
 
 
 class Handler(BaseHTTPRequestHandler):
+  '''Handles incoming http requests.'''
   def send_200(self):
     self.send_response(200)
     # self.send_header('Content-type', 'text/html')
@@ -33,6 +34,12 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def run(port=8000):
+  '''
+  Starts the local web server.
+
+  Args:
+    port (int): The port for the server to listen on.
+  '''
   address = ('', port)
   httpd = Server(address, Handler)
   print('HTTP server starting...')
