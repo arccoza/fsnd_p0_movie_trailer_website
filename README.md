@@ -7,6 +7,8 @@ All development and testing was done on Linux (elementary OS 0.4 / Ubuntu 16.04)
 
 A modern browser (IE 11 / Edge, current versions of Chrome / Firefox / Safari) is required to view the site.
 
+An internet connection is required to access online resources.
+
 ## Download and Setup
 
 ### Download
