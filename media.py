@@ -1,3 +1,7 @@
+'''
+Refs:
+  https://github.com/celiao/tmdbsimple
+'''
 import tmdbsimple as tmdb
 from tmdbsimple import Search, Movies
 from pprint import pprint

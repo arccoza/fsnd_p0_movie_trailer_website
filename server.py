@@ -21,6 +21,7 @@ class Handler(BaseHTTPRequestHandler):
     targets = ('', '/index.html', '/index.htm')
     path = './pub/' + self.path
 
+    # Look for a file in the path provided by the request.
     for p in (os.path.abspath(path + s) for s in targets):
       try:
         with open(p, 'r') as f:
@@ -30,6 +31,7 @@ class Handler(BaseHTTPRequestHandler):
       except IOError:
         pass
 
+    # Send a 404 response if there is no file at the path.
     self.send_404()
 
 

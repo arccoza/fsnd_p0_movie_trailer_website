@@ -1,6 +1,7 @@
 '''
 This is a simple build script that walks a source directory,
 copying, and possibly manipulating, the files to a destination directory.
+
 Refs:
   http://stackoverflow.com/questions/12517451/python-automatically-creating-directories-with-file-output
 '''

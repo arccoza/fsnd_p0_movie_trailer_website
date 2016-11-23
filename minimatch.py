@@ -59,6 +59,8 @@ def _compile(glob):
   if parts[-1] == '':
     regex.append(_sep)
   # print(regex)
+  # This `**{_sep[1:-1]` looks funny but ensures that you can change the name
+  # of the _sep var without breaking anything.
   return ''.join(regex).format(**{_sep[1:-1]: _real_sep})
 
 
@@ -69,7 +71,7 @@ def minimatch(path, pat):
 
   Args:
     path (str): The path to check against pat.
-    pat (str): The pat to test path with.
+    pat (str): The glob pattern to test path against.
 
   Returns:
     A match object if successful, None otherwise.
