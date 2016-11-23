@@ -21,8 +21,12 @@ Once you have the project in the `fsnd_p0_movie_trailer_website` directory (or w
 1. From the command line in the fsnd_p0_movie_trailer_website directory, type: `virtualenv -p python2 .env`
 2. Activate the environment in this console with `source .env/bin/activate`
 
+If you do not have **virtualenv** installed [click here](https://virtualenv.pypa.io/en/stable/installation/) for help.
+
 #### Install required packages
 - From the command line in the fsnd_p0_movie_trailer_website directory, type: `pip install -r requirements.txt`
+
+If you do not have **pip** installed [click here](https://pip.pypa.io/en/stable/installing/) for help.
 
 ## Building and Running
 
@@ -31,7 +35,7 @@ To access the Movie Trailers site:
 0. Make sure your python environment is active (optional).
 1. Build the site by running `python build.py` (this may take a moment) from the command line in the fsnd_p0_movie_trailer_website directory.
 2. Access the site by running the http server `python server.py`
-3. Open your browser to `localhost:8000`
+3. Open your browser to [http://localhost:8000](http://localhost:8000)
 
 If everything worked you should see something like:
 
